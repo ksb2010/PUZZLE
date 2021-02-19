@@ -30,7 +30,7 @@ public class Game extends JFrame{
 	String[] labelText = {"2048","점수 : ","최고점수 : "};
 	JButton[] menuButton = new JButton[3];
 	ImageIcon[] imgIcon = new ImageIcon[3];
-	String[] imgPath = {"C:\\PICTURE\\home.jpg","C:\\PICTURE\\back.jpg","C:\\PICTURE\\restart.jpg"};
+	String[] imgPath = {"\\PICTURE\\home.jpg","\\PICTURE\\back.jpg","\\PICTURE\\restart.jpg"};
 	RoundedButton[][] button;
 	int initCnt = 2;
 	int endCnt = 0;

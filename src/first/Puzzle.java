@@ -60,7 +60,7 @@ public class Puzzle extends JFrame implements ActionListener{
 	public void initPanel() {
 		panel = new JPanel();
 		panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-		ImageIcon icon = new ImageIcon("C:\\PICTURE\\1.jpg");
+		ImageIcon icon = new ImageIcon("\\PICTURE\\1.jpg");
 		Image img = icon.getImage();
 		img = img.getScaledInstance(200, 200, Image.SCALE_DEFAULT);
 		icon = new ImageIcon(img);
